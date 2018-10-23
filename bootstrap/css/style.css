@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'akrobat';
+    src: url(font/Akrobat-Regular.otf);
+}
+
+.body {
+	font-family: 'akrobat', sans-serif !important;
+	
+}
+
+.bg-fond {
+	background: #212121;
+	color: white;
+}
+
+.carousel-img {
+	height: 32rem;
+	overflow: hidden;
+}
+
+.border-right {
+	border: 0 0 7 0 solid black ; !important
+}
+
+.separator {
+	height: 25px;
+	background-color: whitesmoke;
+}
+
+.card{
+	color: #212121;
+}
+
+.masthead {
+	position: relative;
+	width: 100%;
+	height: auto;
+	min-height: 35rem;
+	padding: 15rem 0;
+	background: linear-gradient(to bottom,rgba(22,22,22,.1) 0,rgba(22,22,22,.5) 75%,#161616 100%),url("https://static1.srcdn.com/wordpress/wp-content/uploads/2016/11/Harry-Potter-plays-Quidditch.jpg?q=50&fit=crop&w=798&h=407");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: cover;
+}
